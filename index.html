@@ -10,21 +10,19 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-    <h1 class=" col-md-12 col-sm-12 col-lg-12">Task Tracker</h1>
+        <div>
+    <h1 >Task Tracker</h1>
 </div>
-    <div class="row">
-        <input type="text" class="col-md-6 col-sm-6 col-lg-6" id="task-input" placeholder="Add a new task">
-        <button id="add-task" class="col-md-3 col-sm-3 col-lg-3">Add Task</button>
+    <div>
+        <input type="text" id="task-input" placeholder="Add a new task">
+        <button id="add-task">Add Task</button>
     </div>
     
-    <div class="row">
-    <ul id="task-list" class="col-lg-12 col-md-12 col-sm-12">
+    <ul id="task-list">
         <!-- Tasks will be added here -->
         <li><span>Going for Shopping</span><input type="checkbox"><button>Delete</button></li>
     </ul>
-</div>
-
+    
     <div>
         <label >Show completed tasks: <input type="checkbox" id="show-completed"></label>
     </div>
