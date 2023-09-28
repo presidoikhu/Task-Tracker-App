@@ -61,6 +61,14 @@ li {
     align-items: center;
 }
 
+li button {
+border-radius: 5px;
+font-size: small;
+border-color: #ccc;
+border-width: 1px;
+
+}
+
 .completed {
     text-decoration: line-through;
     background-color: #d5d5d5;
