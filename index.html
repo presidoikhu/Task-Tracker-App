@@ -130,8 +130,9 @@
                 deleteButton.innerHTML = "Delete";
                 deleteButton.addEventListener("click", () => removeTask(i));
                 
-                li.appendChild(checkBox);
+               
                 li.appendChild(taskText);
+                li.appendChild(checkBox);
                 li.appendChild(deleteButton);
                 
                 taskList.appendChild(li);                
