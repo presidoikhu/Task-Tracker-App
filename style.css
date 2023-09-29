@@ -1,12 +1,16 @@
 .container{
-    width: 700px;
+    width: 760px;
     margin-left: 23%;
+    background-color: beige;
+    height: fit-content;
+    
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+   
 }
 
 
@@ -82,4 +86,21 @@ label {
 
 input[type="checkbox"] {
     margin-right: 10px;
+}
+
+li span {
+  display: inline;
+  width: 90%;
+  
+}
+label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+span{
+    margin-left: 10px;
+}
+
+div label{
+    margin-right: 537px;
 }
